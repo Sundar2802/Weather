@@ -8,11 +8,9 @@ function displayresult(){
             var t= data['main']['temp']  
             var maxt= data['main']['temp_max']
             var mint= data['main']['temp_min']
-            var humidity= data['main']['humidity']
             document.getElementById("cityname").innerHTML=city;
             document.getElementById("temp").innerHTML=t+" deg C";
             document.getElementById("maxtemp").innerHTML=maxt+" deg C";
             document.getElementById("mintemp").innerHTML=mint+" deg C";
-            document.getElementById("hum").innerHTML=humidity+;
         })
         }
